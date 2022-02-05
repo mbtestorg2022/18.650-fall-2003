@@ -56,8 +56,45 @@ Topics
 Grades
 ------
 
-| ACTIVITIES  | POINTS |
-| --- | --- |
-| Homework | 200 points |
-| Two Midterm Tests | 100 points each |
-| Final Exam | 200 points
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES 
+{{< thclose >}}
+{{< thopen >}}
+POINTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+200 points
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Two Midterm Tests
+{{< tdclose >}}
+{{< tdopen >}}
+100 points each
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final Exam
+{{< tdclose >}}
+{{< tdopen >}}
+200 points
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

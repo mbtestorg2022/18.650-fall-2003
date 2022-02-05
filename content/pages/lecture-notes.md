@@ -6,37 +6,431 @@ uid: 9e973d39-2888-b4a4-ede8-83f905ab52f6
 
 The lectures notes are available as single files mapped to the lecture sessions below or as a complete document ([PDF - 1.45MB]({{< baseurl >}}/resources/18443)).
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 1 | _Estimation Theory  {{< br >}}  {{< br >}}_Introduction | ([PDF]({{< baseurl >}}/resources/lec1)) |
-| 2 | Some Probability Distributions | ([PDF]({{< baseurl >}}/resources/lec2)) |
-| 3 | Method of Moments | ([PDF]({{< baseurl >}}/resources/lec3)) |
-| 4 | Maximum Likelihood Estimators | ([PDF]({{< baseurl >}}/resources/lec4)) |
-| 5 | Consistency of MLE  {{< br >}}  {{< br >}}Asymptotic Normality of MLE, Fisher Information | ([PDF]({{< baseurl >}}/resources/lec5)) |
-| 6 | Rao-Crámer Inequality | ([PDF]({{< baseurl >}}/resources/lec6)) |
-| 7 | Efficient Estimators | ([PDF]({{< baseurl >}}/resources/lec7)) |
-| 8 | Gamma Distribution  {{< br >}}  {{< br >}}Beta Distribution | ([PDF]({{< baseurl >}}/resources/lec8)) |
-| 9 | Prior and Posterior Distributions | ([PDF]({{< baseurl >}}/resources/lec9)) |
-| 10 | Bayes Estimators  {{< br >}}  {{< br >}}Conjugate Prior Distributions | ([PDF]({{< baseurl >}}/resources/lec10)) |
-| 11 | Sufficient Statistic | ([PDF]({{< baseurl >}}/resources/lec11)) |
-| 12 | Jointly Sufficient Statistics  {{< br >}}  {{< br >}}Improving Estimators Using Sufficient Statistics, Rao-Blackwell Theorem | ([PDF]({{< baseurl >}}/resources/lec12)) |
-| 13 | Minimal Jointly Sufficient Statistics  {{< br >}}  {{< br >}}χ2 Distribution | ([PDF]({{< baseurl >}}/resources/lec13)) |
-| 14 | Estimates of Parameters of Normal Distribution | ([PDF]({{< baseurl >}}/resources/lec14)) |
-| 15 | Orthogonal Transformation of Standard Normal Sample | ([PDF]({{< baseurl >}}/resources/lec15)) |
-| 16 | Fisher and Student Distributions | ([PDF]({{< baseurl >}}/resources/lec16)) |
-| 17 | Confidence Intervals for Parameters of Normal Distribution | ([PDF]({{< baseurl >}}/resources/lec17)) |
-| 18 | _Testing Hypotheses  {{< br >}}  {{< br >}}_Testing Simple Hypotheses  {{< br >}}  {{< br >}}Bayes Decision Rules | ([PDF]({{< baseurl >}}/resources/lec18)) |
-| 19 | Most Powerful Test for Two Simple Hypotheses | ([PDF]({{< baseurl >}}/resources/lec19)) |
-| 20 | Randomized Most Powerful Test  {{< br >}}  {{< br >}}Composite Hypotheses. Uniformly Most Powerful Test | ([PDF]({{< baseurl >}}/resources/lec20)) |
-| 21 | Monotone Likelihood Ratio  {{< br >}}  {{< br >}}One Sided Hypotheses | ([PDF]({{< baseurl >}}/resources/lec21)) |
-| 22 | One Sided Hypotheses (cont.) | ([PDF]({{< baseurl >}}/resources/lec22)) |
-| 23 | Pearson's Theorem | ([PDF]({{< baseurl >}}/resources/lec23)) |
-| 24 | Goodness-of-Fit Test  {{< br >}}  {{< br >}}Goodness-of-Fit Test for Continuous Distribution | ([PDF]({{< baseurl >}}/resources/lec24)) |
-| 25 | Goodness-of-Fit Test for Composite Hypotheses | ([PDF]({{< baseurl >}}/resources/lec25)) |
-| 26 | Test of Independence | ([PDF]({{< baseurl >}}/resources/lec26)) |
-| 27 | Test of Homogeneity | ([PDF]({{< baseurl >}}/resources/lec27)) |
-| 28 | Kolmogorov-Smirnov Test | ([PDF]({{< baseurl >}}/resources/lec28)) |
-| 29 | _Simple Linear Regression  {{< br >}}  {{< br >}}_Method of Least Squares  {{< br >}}  {{< br >}}Simple Linear Regression | ([PDF]({{< baseurl >}}/resources/lec29)) |
-| 30 | Joint Distribution of the Estimates | ([PDF]({{< baseurl >}}/resources/lec30)) |
-| 31 | Statistical Inference in Simple Linear Regression | ([PDF]({{< baseurl >}}/resources/lec31)) |
-| 32 | Classification Problem | ([PDF]({{< baseurl >}}/resources/lec32))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+_Estimation Theory  
+  
+_Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec1))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Some Probability Distributions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec2))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Method of Moments
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec3))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Maximum Likelihood Estimators
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Consistency of MLE  
+  
+Asymptotic Normality of MLE, Fisher Information
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec5))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Rao-Crámer Inequality
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec6))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Efficient Estimators
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec7))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Gamma Distribution  
+  
+Beta Distribution
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec8))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Prior and Posterior Distributions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec9))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Bayes Estimators  
+  
+Conjugate Prior Distributions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Sufficient Statistic
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Jointly Sufficient Statistics  
+  
+Improving Estimators Using Sufficient Statistics, Rao-Blackwell Theorem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Minimal Jointly Sufficient Statistics  
+  
+χ2 Distribution
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Estimates of Parameters of Normal Distribution
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Orthogonal Transformation of Standard Normal Sample
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec15))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Fisher and Student Distributions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Confidence Intervals for Parameters of Normal Distribution
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+_Testing Hypotheses  
+  
+_Testing Simple Hypotheses  
+  
+Bayes Decision Rules
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Most Powerful Test for Two Simple Hypotheses
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec19))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Randomized Most Powerful Test  
+  
+Composite Hypotheses. Uniformly Most Powerful Test
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Monotone Likelihood Ratio  
+  
+One Sided Hypotheses
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+One Sided Hypotheses (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec22))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Pearson's Theorem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec23))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Goodness-of-Fit Test  
+  
+Goodness-of-Fit Test for Continuous Distribution
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec24))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Goodness-of-Fit Test for Composite Hypotheses
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec25))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Test of Independence
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec26))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Test of Homogeneity
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec27))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Kolmogorov-Smirnov Test
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec28))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+_Simple Linear Regression  
+  
+_Method of Least Squares  
+  
+Simple Linear Regression
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec29))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Joint Distribution of the Estimates
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec30))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31
+{{< tdclose >}}
+{{< tdopen >}}
+Statistical Inference in Simple Linear Regression
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec31))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+Classification Problem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec32))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
